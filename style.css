@@ -1,0 +1,95 @@
+body{
+    background-color: white;
+    padding: 7px;
+
+}
+nav{
+color: white;
+box-sizing: border-box;
+text-align: left;
+text-decoration: none;
+}
+
+a.link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.link:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a.link:visited{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.link:active{
+    color: gray;
+    background-color: transparent;
+    text-decoration: solid;
+}
+img{
+    width:100%;
+    height: auto;
+}
+
+.main-1{
+    text-align: right;
+    text-decoration: none;
+}
+
+.main-2{
+    text-align: left;
+    text-decoration: none;
+}
+.button{
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 15px, 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 30px;
+    transition: all 500ms ease;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: gray;
+    color: white;
+    }
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+    color: white;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    color: white;
+
+}
+footer{
+    background-color: black;
+
+}
+ul{
+    padding: 20px;
+}
+
+.list1{
+  font-size: large;
+  font-style:oblique;
+  font-weight: bold;
+  padding: 10px;
+}
